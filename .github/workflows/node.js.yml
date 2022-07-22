@@ -32,15 +32,15 @@ jobs:
         cache: 'npm'
     - name: Install dependencies
       run: |
-        cd my-app
+        cd galery-chrisans
         npm ci
     - name: Build the app
       run: |
-        cd my-app
+        cd galery-chrisans
         npm run build
     - name: Run component tests
       run: |
-        cd my-app
+        cd galery-chrisans
         npm run test
     - name: Start the app
       run: |
